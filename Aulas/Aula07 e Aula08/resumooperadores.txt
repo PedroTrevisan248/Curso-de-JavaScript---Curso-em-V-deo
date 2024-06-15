@@ -1,0 +1,50 @@
+Aula de Operadores - Curso de JavaScript (Curso em Vídeo)
+1. Operadores Aritméticos
+Soma: +
+Subtração: -
+Multiplicação: *
+Divisão: /
+Módulo (resto da divisão): %
+Incremento: ++
+Decremento: --
+2. Operadores de Atribuição
+Atribuição simples: =
+Atribuição com adição: +=
+Atribuição com subtração: -=
+Atribuição com multiplicação: *=
+Atribuição com divisão: /=
+Atribuição com módulo: %=
+3. Operadores Relacionais
+Maior que: >
+Menor que: <
+Maior ou igual a: >=
+Menor ou igual a: <=
+Igual a: ==
+Diferente de: !=
+Estritamente igual a: ===
+Estritamente diferente de: !==
+4. Operadores Lógicos
+E lógico (AND): &&
+Ou lógico (OR): ||
+Não lógico (NOT): !
+5. Operador Ternário
+Sintaxe: condição ? valor1 : valor2
+6. Operadores Bit a Bit
+E bit a bit: &
+Ou bit a bit: |
+Ou exclusivo bit a bit: ^
+Deslocamento à esquerda: <<
+Deslocamento à direita: >>
+Deslocamento à direita com preenchimento zero: >>>
+7. Ordem de Precedência
+Parênteses: ()
+Incremento/Decremento: ++, --
+Negação: -
+Multiplicação/Divisão/Módulo: *, /, %
+Soma/Subtração: +, -
+Comparação: <, <=, >, >=
+Igualdade: ==, !=, ===, !==
+AND lógico: &&
+OR lógico: ||
+Atribuição: =, +=, -=, *=, /=, %=
+Operador ternário: ? :
