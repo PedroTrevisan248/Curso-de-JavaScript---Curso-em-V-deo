@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu país</title>
+</head>
+<body>
+    <h1>Sistema de país</h1>
+    <label for="txtpaís">País natal</label>
+    <input type="text" name="txtpaís" id="txtpaís">
+    <input type="button" value="Enviar" onclick="analisar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function analisar(){
+            var país = window.document.getElementById("txtpaís").value
+            var res = window.document.querySelector("div#res")
+            res.innerHTML = `<p>Você nasceu no/na <strong>${país}</strong></p>`
+            if (país.toLowerCase() != "brasil"){
+                res.innerHTML += "<p>Você é estrangeiro(a)</p>"
+            } else {
+                res.innerHTML += "<p>Você é brasileiro!</p>"
+            }
+        }
+    </script>
+</body>
+</html>
